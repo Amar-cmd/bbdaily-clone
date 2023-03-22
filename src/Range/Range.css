@@ -1,0 +1,50 @@
+.range_wrapper{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.range-block{
+    width: 60vw;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+}
+
+.range-block > .products > img{
+    width: 8vmax;
+}
+
+.products{
+    width: 8vmax;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1.5vmax 0;
+    text-align: center;
+}
+
+.products:hover{
+    background-color: rgba(0,0,0,0.1);
+}
+
+@media screen and (max-width:800px){
+    .range-block{
+    width: 100vw;
+    display: grid;
+    grid-template-columns:  auto auto;
+    margin-top: 2rem;
+}
+.range-block > .products > img{
+    width: 15vmax;
+}
+
+
+.products{
+    width: 100%;
+    margin: 1.5vmax 0;
+}
+
+}

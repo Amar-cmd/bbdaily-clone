@@ -1,0 +1,54 @@
+.background {
+  background: url(../assets/bbdailyTopBanner_2400X1200.jpg);
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-position: 0% 0%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.text {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.text > h2 {
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 1px;
+}
+
+.text > h2 > span {
+  color: red;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+}
+
+.text > .title {
+font-family: 'Itim';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 4rem;
+}
+
+.text > p{
+    margin: 1rem 0;
+    font-size: 1.1rem;
+}
+
+.astore{
+    margin-left: 5px;
+}
+
+@media screen and (max-width:800px) {
+    p{
+      text-align: center;
+      margin: 0;
+    }
+}

@@ -1,0 +1,17 @@
+.promotion_wrapper{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    margin-top: 150px;
+}
+
+.promotion_wrapper > a > img{
+    width: 140px;
+}
+
+@media screen and (max-width:800px) {
+    .promotion_wrapper{
+        display: none;
+    }
+}
